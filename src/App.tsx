@@ -21,10 +21,10 @@ const App = () => {
               <input
                 type="text"
                 name="username"
-                size="35"
-                maxLength="60"
+                size={35}
+                maxLength={60}
                 id="username"
-                tabIndex="1"
+                tabIndex={1}
               />
             </div>
           </div>
@@ -43,10 +43,10 @@ const App = () => {
                 type="password"
                 name="password"
                 className="input_class"
-                size="35"
-                maxLength="1024"
+                size={35}
+                maxLength={1024}
                 id="password"
-                tabIndex="2"
+                tabIndex={2}
                 autoComplete="off"
               />
             </div>
@@ -59,7 +59,7 @@ const App = () => {
               name="formbutton"
               className="input_class"
               id="save_button"
-              tabIndex="3"
+              tabIndex={3}
             />
           </div>
           <div className="tt_formbuttons_right"></div>
