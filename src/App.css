@@ -1,0 +1,217 @@
+body {
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    background: #ebf1f4;
+}
+
+
+body,
+table,
+input,
+select {
+    font-family: arial, sans-serif;
+}
+
+body,
+div,
+table,
+input,
+select {
+    font-size: 11px;
+}
+
+html,
+body {
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    background: #ebf1f4;
+}
+
+#login_frame {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    height: 150px;
+    width: 400px;
+    margin-left: -200px;
+    margin-top: -75px;
+}
+
+fieldset {
+    display: block;
+    margin-bottom: 1.5em;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0.5em;
+    border: 1px solid #7e9eae;
+    padding-top: 0;
+    padding-bottom: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 1em;
+    background: #ebf1f4;
+}
+
+.ttHtmlBox {
+    padding-top: 11;
+    padding-bottom: 19px;
+}
+
+legend {
+    background: #dbe6eb;
+    border: 1px solid #7e9eae;
+    color: #4a7489;
+    font-weight: bold;
+    margin-bottom: 8px;
+    padding: 5px;
+    min-width: 250px;
+}
+
+legend a.collapsible {
+    border-width: 0px;
+    background-color: #DBE6EB;
+    margin-right: 0.5em;
+}
+
+legend a.collapsible img {
+    border-width: 0px;
+    display: inline-block;
+}
+
+form.tt_form input[type="submit"],
+form.tt_form input[type="button"] {
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-top: 0;
+    border-left: 1px solid #d3d5d5;
+    background-image: url(../image/sprite_horiz.png);
+    background-repeat: repeat-x;
+    background-position: 0px -21px;
+    padding: 0px 3px;
+    margin: 0px 2px;
+    height: 19px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+
+form.tt_form input[type="submit"]:hover,
+form.tt_form input[type="button"]:hover {
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    background-image: url(../image/sprite_horiz.png);
+    background-repeat: repeat-x;
+    background-position: 0px -115px;
+    cursor: pointer;
+}
+
+div.tt_form_row_peer span {
+    position: absolute;
+}
+
+div.tt_form_row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.tt_form_row label {
+    clear: left;
+    float: left;
+}
+
+form.tt_form label {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    color: #666666;
+    width: 25%;
+}
+
+form.tt_form input {
+    margin-left: 0px;
+    padding-left: 0.1em;
+}
+
+form.tt_form input,
+select {
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+form.tt_form div.tt_formbuttons {
+    float: left;
+}
+
+form.tt_form .tt_formbuttons_centred {
+    width: 100%;
+    text-align: center;
+}
+
+form.tt_form div.tt_formlinks {
+    float: right;
+    margin-top: 2px;
+    height: 18px;
+}
+
+div.tt_form_row_reqd {
+    float: left;
+    width: 1px;
+    /* to accurately control position of IMG within */
+}
+
+.tt_messageBox {
+    background-color: #FFFFCC;
+    border: 1px solid #999999;
+    margin-bottom: 3px;
+    width: 400px;
+}
+
+.tt_messageBox td {
+    vertical-align: middle;
+}
+
+.tt_messageBox a {
+    color: #01637F;
+    text-decoration: none;
+}
+
+.tt_messageBox a:hover {
+    color: #FF6600;
+}
+
+a {
+    color: #00A0C6;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FF3300;
+}
+
+.tt_formlinks {
+    float: right;
+    margin-top: 2px;
+    height: 18px;
+
+}
+
+.tt_formbuttons {
+    float: left;
+}
+
+.input_class {
+    margin-bottom: 5px;
+    vertical-align: middle;
+    margin-left: 0px;
+    padding-left: 0.1em;
+
+}
+
+.tt_form_row_long {
+    padding-left: 100px 
+}
